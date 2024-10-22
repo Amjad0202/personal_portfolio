@@ -1,50 +1,112 @@
-# React + TypeScript + Vite
+# 🌟 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences in a visually appealing and interactive manner.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live demo [here](https://your-demo-link.com).
 
-## Expanding the ESLint configuration
+## 📋 Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Configure the top-level `parserOptions` property like this:
+## ✨ Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- 🌐 **Responsive Design**: Optimized for all devices.
+- 🎨 **Animated Transitions**: Smooth animations using Framer Motion.
+- 🔍 **Filterable Projects**: Easily filter projects by category.
+- 📄 **Detailed Descriptions**: Each project includes a tech stack, demo links, and GitHub links.
+
+## 🛠️ Technologies Used
+
+- **React**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+
+## ⚙️ Installation
+
+Follow these steps to get a local copy up and running:
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/personal_portfolio.git
+    ```
+2. **Navigate to the project directory**:
+    ```sh
+    cd personal_portfolio
+    ```
+3. **Install dependencies**:
+    ```sh
+    npm install
+    ```
+
+## ▶️ Usage
+
+To start the development server, run:
+```sh
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+To build the project for production, run:
+```sh
+npm run build
 ```
+
+To preview the production build, run:
+```sh
+npm run serve
+```
+
+## 📁 Project Structure
+
+```
+.gitignore
+eslint.config.js
+index.html
+package.json
+postcss.config.js
+public/
+README.md
+src/
+    App.css
+    App.tsx
+    assets/
+    components/
+        About.tsx
+        Contact.tsx
+        CustomCursor.tsx
+        Experience.tsx
+        Footer.tsx
+        Header.tsx
+        Hero.tsx
+        Projects.tsx
+        Skills.tsx
+    index.css
+    main.tsx
+    vite-env.d.ts
+tailwind.config.js
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with ❤️ by [Mohamed Amjad](https://your-portfolio-link.com)
