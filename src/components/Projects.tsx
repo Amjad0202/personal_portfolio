@@ -3,10 +3,12 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'A brief description of Project 1',
-    image: '/path-to-project1-image.jpg',
-    techStack: ['React', 'Node.js', 'MongoDB'],
+    title: 'Busify',
+    description: `Busify - Public Transport Service Tracking and Tickets Booking Application
+
+Busify is a collaborative project developed during the "Fundamentals of Software Engineering" module in Semester 02 at the Institute of Technology, University of Moratuwa. It is designed to enhance public transportation services in Sri Lanka by offering real-time bus tracking and seamless ticket booking. With features such as passenger profiles, ticket booking and cancellation, and service ratings, Busify aims to make commuting more convenient for passengers. I contributed to the project’s development, which was built using HTML5, CSS3, JavaScript, PHP, and MySQL, focusing on both the frontend and backend.`,
+    image: 'src\assets\busify.png',
+    techStack: ['PHP', 'CSS', 'HTML', 'JavaScript'],
     demoLink: 'https://demo-link-1.com',
     githubLink: 'https://github.com/yourusername/project1',
     category: 'Web',
