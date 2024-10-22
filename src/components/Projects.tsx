@@ -3,23 +3,36 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
+    title: 'GrillinHill',
+    description: `GrillinHill
+
+GrillinHill is a premier dining destination that opened its doors in 2019, specializing in crafting flavorful dishes using locally-sourced ingredients. As part of a collaborative team, I contributed to the development of the restaurant's digital presence, enhancing the customer experience through features such as online reservations, a diverse menu, event hosting, and catering services. The project showcases our commitment to community, sustainability, and exceptional hospitality, making every dining experience unforgettable.`,
+    image: 'src/assets/grillinhill.png',
+    techStack: ['PHP', 'CSS', 'HTML', 'JavaScript'],
+    demoLink: 'https://demo-link-1.com',
+    githubLink: 'https://github.com/Amjad0202/Busify',
+    category: 'Web',
+  },
+  {
     title: 'Busify',
     description: `Busify - Public Transport Service Tracking and Tickets Booking Application
 
 Busify is a collaborative project developed during the "Fundamentals of Software Engineering" module in Semester 02 at the Institute of Technology, University of Moratuwa. It is designed to enhance public transportation services in Sri Lanka by offering real-time bus tracking and seamless ticket booking. With features such as passenger profiles, ticket booking and cancellation, and service ratings, Busify aims to make commuting more convenient for passengers. I contributed to the project’s development, which was built using HTML5, CSS3, JavaScript, PHP, and MySQL, focusing on both the frontend and backend.`,
-    image: 'src\assets\busify.png',
+    image: 'src/assets/busify.png',
     techStack: ['PHP', 'CSS', 'HTML', 'JavaScript'],
     demoLink: 'https://demo-link-1.com',
-    githubLink: 'https://github.com/yourusername/project1',
+    githubLink: 'https://github.com/Amjad0202/Busify',
     category: 'Web',
   },
   {
-    title: 'Project 2',
-    description: 'A brief description of Project 2',
-    image: '/path-to-project2-image.jpg',
-    techStack: ['Flutter', 'Firebase'],
+    title: 'Seyoni',
+    description:`Seyoni - Home Services Management System
+
+Seyoni is a mobile application designed to connect service seekers with reliable providers quickly and efficiently. The app allows users to book a wide range of home services, such as repairs and cleaning, while providing real-time tracking, secure payments, and reviews. Developed using Flutter for the frontend and Node.js for the backend, Seyoni is hosted on Microsoft Azure for scalability and reliability. I collaborated on this project as part of a team, contributing to the implementation of core features that enhance the user experience and streamline service management.`,
+    image: 'src/assets/seyoni1.png',
+    techStack: ['Flutter','Dart', 'Firebase', 'Node.js',],
     demoLink: 'https://demo-link-2.com',
-    githubLink: 'https://github.com/yourusername/project2',
+    githubLink: 'https://github.com/Amjad0202/Seyoni',
     category: 'Mobile',
   },
   // Add more projects here
