@@ -2,6 +2,7 @@
   "name": "mohamed-amjad-portfolio",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://mamjad.me",
   "type": "module",
   "scripts": {
     "dev": "vite",
