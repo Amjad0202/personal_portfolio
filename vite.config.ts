@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // Use root for custom domains
+  base: '/personal_portfolio/',  // Set the base path for GitHub Pages
 });
